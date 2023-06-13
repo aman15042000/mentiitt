@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+        Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
+    </title>
+    <meta name="description" content="Simple landind page" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define yourgradient here - use online tools to find agradient matching your branding-->
+    <style>
+        .gradient {
+            background: radial(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
+        }
+    </style>
+</head>
+
+<body class="leading-normal tracking-normal text-black" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="sticky w-full z-30 top-0 text-black">
+        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+            <div class="pl-4 flex items-center">
+                <a class="toggleColour text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+                    href="/">
+                    Ment IIT
+                </a>
+            </div>
+            <div class="block lg:hidden pr-4">
+                <button id="nav-toggle"
+                    class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+                id="nav-content">
+                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                    <li class="mr-3">
+                        <a class="inline-block py-2 px-4 text-black no-underline" href="./about.html">About Us</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                            href="/">Services</a>
+                    </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                            href="/">Contact</a>
+                    </li>
+                </ul>
+                <button id="navAction"
+                    class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    Call Now!
+                </button>
+            </div>
+        </div>
+        <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+
+    <!-- ABOUT PAGE -->
+    <!-- Heading -->
+    <div class="text-center">
+        <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div class="flex flex-col w-full justify-center text-center md:text-left">
+                <h1 class="my-4 text-5xl font-bold leading-tight text-center">
+                    About Us!
+                </h1>
+                <p class="leading-normal text-2xl mb-8 text-center">
+                    something else here!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Heading -->
+
+
+    <!-- SECTION -->
+    <section class="bg-white dark:bg-gray-100 py-8">
+        <div
+            class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white dark:text-black">
+                    Let's
+                    create
+                    more tools
+                    and ideas that brings us together.</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">We are assembling a team of
+                    IITians to provide guidance and assistance in suggesting the best college options to students
+                    who
+                    have recently appeared for the JEE Advanced examination and are now preparing for the
+                    counselling
+                    process through JoSAA. Our team of experienced IITians will utilise their extensive knowledge
+                    and
+                    understanding of the college admission process to help students make informed decisions
+                    regarding
+                    their choice of college.</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- SECTION -->
+
+    <!-- SECTION -->
+    <section class="bg-white dark:bg-white py-8">
+        <div
+            class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white dark:text-black">
+                    Let's
+                    create
+                    more tools
+                    and ideas that brings us together.</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">By carefully considering various
+                    factors such as the student's JEE Advanced rank, a preferred branch of study, location preferences,
+                    college infrastructure, faculty quality, placement records, and the institution’s overall
+                    reputation, our team will provide personalised recommendations to each student. We will ensure that
+                    we consider the students’ individual aspirations and goals, providing them with comprehensive
+                    guidance to help them make the best decision for their future.</p>
+            </div>
+            <img class="w-full dark:hidden"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                alt="dashboard image">
+        </div>
+    </section>
+    <!-- SECTION -->
+
+    <!-- SECTION -->
+    <section class="bg-white dark:bg-gray-100 py-8">
+        <div
+            class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white dark:text-black">
+                    Let's
+                    create
+                    more tools
+                    and ideas that brings us together.</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">In addition to suggesting
+                    suitable colleges, our team will offer valuable insights and advice on the counselling process, seat
+                    allocation, and other related aspects. We will help students understand the various options
+                    available to them and assist in navigating the complexities of the JoSAA counselling procedure.</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- SECTION -->
+
+    <!-- SECTION -->
+    <section class="bg-white dark:bg-white py-8">
+        <div
+            class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white dark:text-black">
+                    Let's
+                    create
+                    more tools
+                    and ideas that brings us together.</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Our primary objective is to
+                    support students in making well-informed choices that align with their academic and career
+                    aspirations. By leveraging the expertise of our team of IITians, we aim to provide guidance that
+                    will maximise the chances of students securing admission to the most suitable institutions that
+                    match their preferences and goals.</p>
+            </div>
+            <img class="w-full dark:hidden"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                alt="dashboard image">
+        </div>
+    </section>
+    <!-- SECTION -->
+
+    <!-- ABOUT PAGE -->
+
+
+    <!--Footer-->
+    <footer class="bg-white">
+        <div class="container mx-auto px-8">
+            <div class="w-full flex flex-col md:flex-row py-6">
+                <div class="flex-1 mb-6 text-black">
+                    <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+                        Ment IIT
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <p class="uppercase text-gray-500 md:mb-6">Links</p>
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/"
+                                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1">
+                    <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/"
+                                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1">
+                    <p class="uppercase text-gray-500 md:mb-6">Social</p>
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/"
+                                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/"
+                                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/"
+                                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1">
+                    <p class="uppercase text-gray-500 md:mb-6">Company</p>
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official
+                                Blog</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About
+                                Us</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="/"
+                                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+    <script>
+        var scrollpos = window.scrollY;
+        var header = document.getElementById("header");
+        var navcontent = document.getElementById("nav-content");
+        var navaction = document.getElementById("navAction");
+        var brandname = document.getElementById("brandname");
+        var toToggle = document.querySelectorAll(".toggleColour");
+
+        document.addEventListener("scroll", function () {
+            /*Apply classes for slide in bar*/
+            scrollpos = window.scrollY;
+
+            if (scrollpos > 10) {
+                header.classList.add("bg-white");
+                navaction.classList.remove("bg-white");
+                navaction.classList.add("gradient");
+                navaction.classList.remove("text-gray-800");
+                navaction.classList.add("text-black");
+                //Use to switch toggleColour colours
+                for (var i = 0; i < toToggle.length; i++) {
+                    toToggle[i].classList.add("text-gray-800");
+                    toToggle[i].classList.remove("text-black");
+                }
+                header.classList.add("shadow");
+                navcontent.classList.remove("bg-gray-100");
+                navcontent.classList.add("bg-white");
+            } else {
+                header.classList.remove("bg-white");
+                navaction.classList.remove("gradient");
+                navaction.classList.add("bg-white");
+                navaction.classList.remove("text-black");
+                navaction.classList.add("text-gray-800");
+                //Use to switch toggleColour colours
+                for (var i = 0; i < toToggle.length; i++) {
+                    toToggle[i].classList.add("text-black");
+                    toToggle[i].classList.remove("text-gray-800");
+                }
+
+                header.classList.remove("shadow");
+                navcontent.classList.remove("bg-white");
+                navcontent.classList.add("bg-gray-100");
+            }
+        });
+    </script>
+    <script>
+        /*Toggle dropdown list*/
+        /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+        var navMenuDiv = document.getElementById("nav-content");
+        var navMenu = document.getElementById("nav-toggle");
+
+        document.onclick = check;
+        function check(e) {
+            var target = (e && e.target) || (event && event.srcElement);
+
+            //Nav Menu
+            if (!checkParent(target, navMenuDiv)) {
+                // click NOT on the menu
+                if (checkParent(target, navMenu)) {
+                    // click on the link
+                    if (navMenuDiv.classList.contains("hidden")) {
+                        navMenuDiv.classList.remove("hidden");
+                    } else {
+                        navMenuDiv.classList.add("hidden");
+                    }
+                } else {
+                    // click both outside link and outside menu, hide menu
+                    navMenuDiv.classList.add("hidden");
+                }
+            }
+        }
+        function checkParent(t, elm) {
+            while (t.parentNode) {
+                if (t == elm) {
+                    return true;
+                }
+                t = t.parentNode;
+            }
+            return false;
+        }
+    </script>
+</body>
+
+</html>

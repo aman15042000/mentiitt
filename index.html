@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Ment IIT - Your Personal Mentor
+  </title>
+  <meta name="description" content="Simple landind page" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+  <!-- Define yourgradient here - use online tools to find agradient matching your branding-->
+  <style>
+    .gradient {
+      background: radial(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
+    }
+  </style>
+</head>
+
+<body class="leading-normal tracking-normal text-black" style="font-family: 'Source Sans Pro', sans-serif;">
+  <!--Nav-->
+  <nav id="header" class="sticky w-full z-30 text-black">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+      <div class="pl-4 flex items-center">
+        <a class="toggleColour text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+          Ment IIT
+        </a>
+      </div>
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle"
+          class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+        </button>
+      </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <a class="inline-block py-2 px-4 text-black no-underline" href="./about.html">About Us</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="/">Services</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="/">Contact</a>
+          </li>
+        </ul>
+        <button id="navAction"
+          class="mx-auto lg:mx-0 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Call Now!
+        </button>
+      </div>
+    </div>
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+  </nav>
+
+
+
+  <!--Hero-->
+  <div class="h-screen">
+    <div class=" px-16 my-12 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <!--Left Col-->
+      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+        <p class="uppercase tracking-loose w-full">What are you waiting for?</p>
+        <h1 class="my-4 text-5xl font-bold leading-tight">
+          We Provide mentorship for JEE Counselling!
+        </h1>
+        <p class="text-gray-800 text-normal text-2xl mb-8">
+          Our team of experienced IITians will utilise their extensive knowledge and understanding of the college
+          admission process to help students make informed decisions regarding their choice of college.
+          . Make it just right!
+        </p>
+
+        <button
+          class="py-4 px-6 text-white bg-emerald-600 border focus:ring-indigo-500 focus:ring-offset-indigo-200 hover:text-white mx-auto lg:mx-0  text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Book a Session Right Now
+        </button>
+      </div>
+      <!--Right Col-->
+      <div class="w-full md:w-3/5 py-6 text-center">
+        <img class="w-full md:w-4/5 z-50" src="hero.png" />
+      </div>
+    </div>
+  </div>
+  <div class="relative -mt-12 lg:-mt-24">
+  </div>
+
+
+
+  <!-- SECTION -->
+  <section class="bg-white dark:bg-gray-100 py-8">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+      <img class="w-full dark:hidden"
+        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+      <img class="w-full hidden dark:block"
+        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+        alt="dashboard image">
+      <div class="mt-4 md:mt-0">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white dark:text-black">Let's create
+          more tools
+          and ideas that brings us together.</h2>
+        <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">MentIIT is an online platform dedicated
+          to providing personalised guidance and support to students who have appeared for the JEE Advanced examination
+          and are seeking assistance in selecting the best college options. The website serves as a one-stop resource
+          for students to access comprehensive information and expert advice from a team of experienced IITians.</p>
+
+        <button
+          class="text-white bg-emerald-600 mx-auto lg:mx-0 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Subscribe
+        </button>
+
+      </div>
+    </div>
+  </section>
+  <!-- SECTION -->
+
+
+
+
+  <section class="bg-white border-b py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        Title
+      </h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="w-5/6 sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            Lorem ipsum dolor sit amet
+          </h3>
+          <p class="text-gray-600 mb-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+            amet ligula.
+            <br />
+            <br />
+
+            Images from:
+
+            <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+        </div>
+      </div>
+      <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+        </div>
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <div class="align-middle">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Lorem ipsum dolor sit amet
+            </h3>
+            <p class="text-gray-600 mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+              <br />
+              <br />
+              Images from:
+
+              <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION -->
+  <section class="bg-white dark:bg-gray-100">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div class="max-w-screen-md">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Let's find more that
+          brings us together.</h2>
+        <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Flowbite helps you connect with friends,
+          family and communities of people who share your interests. Connecting with your friends and family as well as
+          discovering new ones is easy with features like Groups, Watch and Marketplace.</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+          <a href="/"
+            class="text-white bg-emerald-600 border border-gray-100 inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            View more
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION -->
+
+
+  <section class="bg-white border-b py-8">
+    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        Title
+      </h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+              xGETTING STARTED
+            </p>
+            <div class="w-full font-bold text-xl text-gray-800 px-6">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+            </p>
+          </a>
+        </div>
+        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+          <div class="flex items-center justify-start">
+            <button
+              class="text-white bg-emerald-600 mx-auto lg:mx-0 hover:text-white text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Action
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+              xGETTING STARTED
+            </p>
+            <div class="w-full font-bold text-xl text-gray-800 px-6">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+            </p>
+          </a>
+        </div>
+        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+          <div class="flex items-center justify-center">
+            <button
+              class="text-white bg-emerald-600 mx-auto lg:mx-0 hover:text-white text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Action
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+              xGETTING STARTED
+            </p>
+            <div class="w-full font-bold text-xl text-gray-800 px-6">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+            </p>
+          </a>
+        </div>
+        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+          <div class="flex items-center justify-end">
+            <button
+              class="text-white bg-emerald-600 mx-auto lg:mx-0 hover:text-white text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Action
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="bg-white dark:bg-gray-100">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Our Team</h2>
+        <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of
+          open-source web components and elements built with the utility classes from Tailwind</p>
+      </div>
+      <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-100 dark:border-gray-700">
+          <a href="/">
+            <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="./assets/image/test-image.svg"
+              alt="profile-image" />
+          </a>
+          <div class="p-5">
+            <h3 class="text-xl font-bold tracking-tight text-black dark:text-black">
+              <a href="/">Bonnie Green</a>
+            </h3>
+            <span class="text-gray-800 dark:text-gray-500">CEO & Web Developer</span>
+            <p class="mt-3 mb-4 font-light text-gray-700 dark:text-gray-500">Bonnie drives the technical strategy of the
+              flowbite platform and brand.</p>
+            <ul class="flex space-x-4 sm:mt-0">
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-100 dark:border-gray-700">
+          <a href="/">
+            <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="./assets/image/test-image.svg"
+              alt="profile-image" />
+          </a>
+          <div class="p-5">
+            <h3 class="text-xl font-bold tracking-tight text-black dark:text-black">
+              <a href="/">Jese Leos</a>
+            </h3>
+            <span class="text-gray-800 dark:text-gray-500">CTO</span>
+            <p class="mt-3 mb-4 font-light text-gray-700 dark:text-gray-500">Jese drives the technical strategy of the
+              flowbite platform and brand.</p>
+            <ul class="flex space-x-4 sm:mt-0">
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-100 dark:border-gray-700">
+          <a href="/">
+            <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="./assets/image/test-image.svg"
+              alt="profile-image" />
+          </a>
+          <div class="p-5">
+            <h3 class="text-xl font-bold tracking-tight text-black dark:text-black">
+              <a href="/">Michael Gough</a>
+            </h3>
+            <span class="text-gray-800 dark:text-gray-500">Senior Front-end Developer</span>
+            <p class="mt-3 mb-4 font-light text-gray-700 dark:text-gray-500">Michael drives the technical strategy of
+              the flowbite platform and brand.</p>
+            <ul class="flex space-x-4 sm:mt-0">
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-100 dark:border-gray-700">
+          <a href="/">
+            <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="./assets/image/test-image.svg"
+              alt="profile-image" />
+          </a>
+          <div class="p-5">
+            <h3 class="text-xl font-bold tracking-tight text-black dark:text-black">
+              <a href="/">Lana Byrd</a>
+            </h3>
+            <span class="text-gray-800 dark:text-gray-500">Marketing & Sale</span>
+            <p class="mt-3 mb-4 font-light text-gray-700 dark:text-gray-500">Lana drives the technical strategy of the
+              flowbite platform and brand.</p>
+            <ul class="flex space-x-4 sm:mt-0">
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+                </a>
+              </li>
+              <li>
+                <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TEAM -->
+
+  <!-- PRICE SECTION -->
+  <section class="bg-emerald-500 py-8">
+    <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">
+        Pricing
+      </h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+        <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+          <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="p-8 text-3xl font-bold text-center border-b-4">
+              Free
+            </div>
+            <ul class="w-full text-center text-sm">
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
+              £0
+              <span class="text-base">for one user</span>
+            </div>
+            <div class="flex items-center justify-center">
+              <button
+                class="text-white bg-emerald-600 mx-auto lg:mx-0 text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
+            <div class="h-1 w-full my-0 py-0 rounded-t"></div>
+            <ul class="w-full text-center text-base font-bold">
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-4xl font-bold text-center">
+              £x.99
+              <span class="text-base">/ per user</span>
+            </div>
+            <div class="flex items-center justify-center">
+              <button
+                class="text-white bg-emerald-600 mx-auto lg:mx-0 text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+          <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="p-8 text-3xl font-bold text-center border-b-4">
+              Pro
+            </div>
+            <ul class="w-full text-center text-sm">
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
+              £x.99
+              <span class="text-base">/ per user</span>
+            </div>
+            <div class="flex items-center justify-center">
+              <button
+                class="text-white bg-emerald-600 mx-auto lg:mx-0 text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PRICE SECTION -->
+
+
+
+  <!-- Change the colour #f8fafc to match the previous section colour -->
+  <section class="container mx-auto text-center py-12 bg-gray-100" style="color: #13d46d;">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
+      Call to Action
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <h3 class="my-4 text-3xl leading-tight">
+      Main Hero Message to sell yourself!
+    </h3>
+    <button
+      class="text-white bg-emerald-600 mx-auto lg:mx-0 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+      Action!
+    </button>
+  </section>
+
+
+  <!--Footer-->
+  <footer class="bg-gray-50 py-6">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex-1 mb-6 text-black">
+          <a class="text-gray-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+            Ment IIT
+          </a>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">FAQ</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Help</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Terms</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Facebook</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Linkedin</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Official Blog</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">About Us</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+  <script>
+    var scrollpos = window.scrollY;
+    var header = document.getElementById("header");
+    var navcontent = document.getElementById("nav-content");
+    var navaction = document.getElementById("navAction");
+    var brandname = document.getElementById("brandname");
+    var toToggle = document.querySelectorAll(".toggleColour");
+
+    document.addEventListener("scroll", function () {
+      /*Apply classes for slide in bar*/
+      scrollpos = window.scrollY;
+
+      if (scrollpos > 10) {
+        header.classList.add("bg-white");
+        navaction.classList.remove("bg-white");
+        navaction.classList.add("gradient");
+        navaction.classList.remove("text-gray-800");
+        navaction.classList.add("text-black");
+        //Use to switch toggleColour colours
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-gray-800");
+          toToggle[i].classList.remove("text-black");
+        }
+        header.classList.add("shadow");
+        navcontent.classList.remove("bg-gray-100");
+        navcontent.classList.add("bg-white");
+      } else {
+        header.classList.remove("bg-white");
+        navaction.classList.remove("gradient");
+        navaction.classList.add("bg-white");
+        navaction.classList.remove("text-black");
+        navaction.classList.add("text-gray-800");
+        //Use to switch toggleColour colours
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-black");
+          toToggle[i].classList.remove("text-gray-800");
+        }
+
+        header.classList.remove("shadow");
+        navcontent.classList.remove("bg-white");
+        navcontent.classList.add("bg-gray-100");
+      }
+    });
+  </script>
+  <script>
+    /*Toggle dropdown list*/
+    /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+    var navMenuDiv = document.getElementById("nav-content");
+    var navMenu = document.getElementById("nav-toggle");
+
+    document.onclick = check;
+    function check(e) {
+      var target = (e && e.target) || (event && event.srcElement);
+
+      //Nav Menu
+      if (!checkParent(target, navMenuDiv)) {
+        // click NOT on the menu
+        if (checkParent(target, navMenu)) {
+          // click on the link
+          if (navMenuDiv.classList.contains("hidden")) {
+            navMenuDiv.classList.remove("hidden");
+          } else {
+            navMenuDiv.classList.add("hidden");
+          }
+        } else {
+          // click both outside link and outside menu, hide menu
+          navMenuDiv.classList.add("hidden");
+        }
+      }
+    }
+    function checkParent(t, elm) {
+      while (t.parentNode) {
+        if (t == elm) {
+          return true;
+        }
+        t = t.parentNode;
+      }
+      return false;
+    }
+  </script>
+</body>
+
+</html>

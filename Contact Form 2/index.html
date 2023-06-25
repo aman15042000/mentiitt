@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form name="submit-to-google-sheet" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="name" class="form-input" placeholder="Full name" required />
+
+        <input type="email" name="email" class="form-input" placeholder="Email address" required />
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+      <button class="form-btn" type="submit">
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+    <span id="message" class="success-message"></span>
+  </section>
+  <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbxp_dhWvbNv2i-HnNIYN6j5HBcFBuyK9ZAQX3wCO3dPxHXTyAhYduWRZB2MfsKee8Nn/exec";
+    const contactForm = document.forms['submit-to-google-sheet']
+    const message = document.getElementById("message");
+
+    contactForm.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(contactForm) })
+        .then(response => {
+          message.innerHTML = "Thank you for your response!"
+          setTimeout(function () {
+            message.innerHTML = ""
+          }, 2000)
+          contactForm.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
